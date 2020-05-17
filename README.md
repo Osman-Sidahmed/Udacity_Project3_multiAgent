@@ -3,14 +3,14 @@
 ![tennis](https://user-images.githubusercontent.com/37901636/82143613-6f8e8d00-9845-11ea-98a6-11b76269d6c4.png)
 
 ## About the Project
-In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location.
+In this environment, two agents control rackets to bounce a ball over a net. If an agent hits the ball over the net, it receives a reward of +0.1. If an agent lets a ball hit the ground or hits the ball out of bounds, it receives a reward of -0.01.
 
-* Observation space is 33 variables corresponding to position, linear and angular velocities and so.
-Action space is 4 variables corresponding to Torque applied to two joints
+* Observation space is 8 variables corresponding the position and velocity of the ball and racket.
+* Action space is 2 variables corresponding to moving towards the net and the other jumping.
 
 * The goal of the agent is to maintain its position at the target location for as many time steps as possible.
 
-* The environment is considered solved when the agent gets an average score of **+30 over 100 consecutive episodes**.
+* The environment is considered solved when the agent gets an average score of **+0.5 over 100 consecutive episodes**.
 
 * The strategy learnt must get the agent am minimum average score of +13 over 100 consecutive episodes.
 
