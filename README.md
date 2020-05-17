@@ -1,6 +1,6 @@
-# Robotic Arm Contiuous Control
+# Tennis
 
-![reacher](https://user-images.githubusercontent.com/37901636/82127330-f34b6980-97b2-11ea-8650-cc3497b1d968.gif)
+![tennis](https://user-images.githubusercontent.com/37901636/82143613-6f8e8d00-9845-11ea-98a6-11b76269d6c4.png)
 
 ## About the Project
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location.
