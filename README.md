@@ -10,18 +10,16 @@ In this environment, two agents control rackets to bounce a ball over a net. If 
 
 * The goal of the agent is to maintain its position at the target location for as many time steps as possible.
 
-* The environment is considered solved when the agent gets an average score of **+0.5 over 100 consecutive episodes**.
-
-* The strategy learnt must get the agent am minimum average score of +13 over 100 consecutive episodes.
+* The environment is considered solved when the agent gets an average score of **+0.5 over 100 consecutive episodes where the episode score is the maximum between the two agent's scores**.
 
 ## Dependencies & Environment Setup
 1. install python 3.6
 1. [Clone the DRLND Repository!](https://github.com/udacity/deep-reinforcement-learning#dependencies) and follow the README.md instructions to install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete the project.
 1. Download the _ready-built_ Unity Environment:
-     1. [Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
-     2. [Windows 64](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
-     3.[Mac](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
-1. Place the file in the p2_continuous-control/ folder in the DRLND GitHub repository, and unzip (or decompress) the file
+     1. [Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
+     2. [Windows 64](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
+     3.[Mac](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
+1. Place the file in the p3_collab-compet/ folder in the DRLND GitHub repository, and unzip (or decompress) the file
 
 ## About the code:
 * Continuous_Control.ipynb contains the master code where the agent learn and the resulting models are saved.
