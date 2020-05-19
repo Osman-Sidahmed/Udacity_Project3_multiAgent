@@ -22,8 +22,10 @@ In this environment, two agents control rackets to bounce a ball over a net. If 
 1. Place the file in the p3_collab-compet/ folder in the DRLND GitHub repository, and unzip (or decompress) the file
 
 ## About the code:
-* Continuous_Control.ipynb contains the master code where the agent learn and the resulting models are saved.
+* Tennis.ipynb contains the master code where the agent learn and the resulting models are saved.
 
-* ddpg_agent.py contains the definition of the actor-critic architecture of the agent with its methods (act, step, learn), in addition to two utility classes (Ornstein-Uhlenbeck process noise generator & the replay buffer).
+* ddpg_agent.py contains the definition of multi-agent setup: the multi-agent calss containing two identical agents, Agent class used by the multi-agent class to define the actor-critic structure of each agent, the OUNoise class and the replay buffer.
+
+model.py containsthe actor-critic architecture of the agent with its methods (act, step, learn), in addition to two utility classes (Ornstein-Uhlenbeck process noise generator & the replay buffer).
 
 * model.py contains the actor-critic nn module architecture defining the number of layers, their dimensions, batch normalization and the activation used at the output layer.
